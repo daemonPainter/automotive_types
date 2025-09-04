@@ -23,8 +23,8 @@ class Signal():
     value = attrs.field(default=0)
     offset = attrs.field(default=0)
     factor = attrs.field(default=1)
-    min = attrs.field(default=attrs.Factory(lambda self: self.value*self.factor-self.offset, takes_self=True)
-    _min_value_bits = attrs.field(default=attrs.Factory(lambda self: BitArray(lenght=self.size), takes_self=True)
-    _max_value_bits = attrs.field(default=attrs.Factory(lambda self: self._min_value_bits.invert(), takes_self=True)
-    max = attrs.field(default=attrs.Factory(lambda self: self.max_value_bits.int*self.factor+self.offset, takes_self=True)
+    min = attrs.field(default=attrs.Factory(lambda self: self.value*self.factor-self.offset, takes_self=True))
+    _min_value_bits = attrs.field(default=attrs.Factory(lambda self: BitArray(lenght=self.size), takes_self=True))
+    _max_value_bits = attrs.field(default=attrs.Factory(lambda self: self._min_value_bits.invert(), takes_self=True))
+    max = attrs.field(default=attrs.Factory(lambda self: self.max_value_bits.int*self.factor+self.offset, takes_self=True))
     
