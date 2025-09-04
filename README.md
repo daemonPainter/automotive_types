@@ -16,3 +16,5 @@ Contributions are very welcome. Kindly follow this procedure:
 2. Open an issue in this repository explaining what is OK, NOT OK, or IMPROVED
 3. Reference this issue in your Pull Request Commit
 4. Open a Pull Request pointing at that commit
+
+Kindly abide to [![PEP8](https://img.shields.io/badge/code%20style-pep8-blue.svg)](https://www.python.org/dev/peps/pep-0008/) and [![PEP8](https://img.shields.io/badge/code%20style-pep257-blue.svg)](https://www.python.org/dev/peps/pep-0257/) when submitting code.
