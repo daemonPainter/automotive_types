@@ -1,7 +1,7 @@
 # automotive-types
 
-[![Coverage Status](https://coveralls.io/repos/github/daemonPainter/automotive-types/badge.svg?branch=main)](https://coveralls.io/github/daemonPainter/automotive-types?branch=main)
-[![automotive-types CI pipeline](https://github.com/daemonPainter/automotive-types/actions/workflows/github-actions.yml/badge.svg?branch=main)](https://github.com/daemonPainter/automotive-types/actions/workflows/github-actions.yml)
+[![Coverage Status](https://coveralls.io/repos/github/daemonPainter/automotive_types/badge.svg?branch=main)](https://coveralls.io/github/daemonPainter/automotive_types?branch=main)
+[![automotive-types CI pipeline](https://github.com/daemonPainter/automotive_types/actions/workflows/github-actions.yml/badge.svg?branch=main)](https://github.com/daemonPainter/automotive_types/actions/workflows/github-actions.yml)
 
 ## *automotive-types* is a collection of re-usable types for automotive-related scripting
 
