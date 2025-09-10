@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 40.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "automotive_types"
+description = "A collection of types commonly used in Automotive related programming"
+readme = "README.md"
+dynamic = ["version"]
+authors = [{ name="Gabriele Omodeo Vanone", email = "mail@gabrieleomodeo.it" }]
+maintainers = [{ name="Gabriele Omodeo Vanone", email = "mail@gabrieleomodeo.it" }]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/daemonPainter/automotive-types"
+Issues = "https://github.com/daemonPainter/automotive-types/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
